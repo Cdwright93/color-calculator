@@ -18,36 +18,36 @@
         const ctx3 = canvas3.getContext('2d');
         if (ctx1.fillStyle == "#ff0000" && ctx2.fillStyle == "#0000ff") {
             ctx3.fillStyle = "purple";
-            ctx3.fillRect(10, 10, 150, 100);
+            ctx3.fillRect(0, 0, 310, 157.8);
         }
         if (ctx1.fillStyle == "#ff0000" && ctx2.fillStyle == "#ffff00") {
             ctx3.fillStyle = "orange";
-            ctx3.fillRect(10, 10, 150, 100);
+            ctx3.fillRect(0, 0, 310, 157.8);
         }
         if (ctx1.fillStyle == "#ff0000" && ctx2.fillStyle == "#ff0000") {
           console.log("cant do that");
         }
         if (ctx1.fillStyle == "#0000ff" && ctx2.fillStyle == "#ff0000") {
             ctx3.fillStyle = "purple";
-            ctx3.fillRect(10, 10, 150, 100);
+            ctx3.fillRect(0, 0, 310, 157.8);
         }
         if (ctx1.fillStyle == "#0000ff" && ctx2.fillStyle == "#ffff00") {
             ctx3.fillStyle = "green";
-            ctx3.fillRect(10, 10, 150, 100);
+            ctx3.fillRect(0, 0, 310, 157.8);
         }
         if (ctx1.fillStyle == "#0000ff" && ctx2.fillStyle == "#0000ff") {
           console.log("cant do that");
         }
         if (ctx1.fillStyle == "#ffff00" && ctx2.fillStyle == "#ff0000") {
             ctx3.fillStyle = "orange";
-            ctx3.fillRect(10, 10, 150, 100);
+            ctx3.fillRect(0, 0, 310, 157.8);
         }
         if (ctx1.fillStyle == "#ffff00" && ctx2.fillStyle == "#ffff00") {
           console.log("cant do that");
         }
         if (ctx1.fillStyle == "#ffff00" && ctx2.fillStyle == "#0000ff") {
             ctx3.fillStyle = "green";
-            ctx3.fillRect(10, 10, 150, 100);
+            ctx3.fillRect(0, 0, 310, 157.8);
         }
       }
       function deconColors() {
@@ -59,21 +59,21 @@
         const ctx3 = canvas3.getContext('2d');
         if (ctx3.fillStyle == "#800080") {
             ctx1.fillStyle = "red";
-            ctx1.fillRect(10, 10, 150, 100);
+            ctx1.fillRect(0, 0, 310, 157.8);
             ctx2.fillStyle = "blue";
-            ctx2.fillRect(10, 10, 150, 100);
+            ctx2.fillRect(0, 0, 310, 157.8);
         }
         if (ctx3.fillStyle == "#008000") {
             ctx1.fillStyle = "yellow";
-            ctx1.fillRect(10, 10, 150, 100);
+            ctx1.fillRect(0, 0, 310, 157.8);
             ctx2.fillStyle = "blue";
-            ctx2.fillRect(10, 10, 150, 100);
+            ctx2.fillRect(0, 0, 310, 157.8);
         }
         if (ctx3.fillStyle == "#ffa500") {
             ctx1.fillStyle = "red";
-            ctx1.fillRect(10, 10, 150, 100);
+            ctx1.fillRect(0, 0, 310, 157.8);
             ctx2.fillStyle = "yellow";
-            ctx2.fillRect(10, 10, 150, 100);
+            ctx2.fillRect(0, 0, 310, 157.8);
         }
       }
       function colorPicker1(value) {
@@ -85,7 +85,7 @@
           const canvas = document.getElementById("color1");
           const ctx = canvas.getContext("2d");
           ctx.fillStyle = "red";
-          ctx.fillRect(10, 10, 150, 100);
+          ctx.fillRect(0, 0, 310, 157.8);
         }
         if (value == "blue") {
           //    var para = document.createElement('p');
@@ -95,7 +95,7 @@
           const canvas = document.getElementById("color1");
           const ctx = canvas.getContext("2d");
           ctx.fillStyle = "blue";
-          ctx.fillRect(10, 10, 150, 100);
+          ctx.fillRect(0, 0, 310, 157.8);
         }
         if (value == "yellow") {
           //    var para = document.createElement('p');
@@ -105,7 +105,7 @@
           const canvas = document.getElementById("color1");
           const ctx = canvas.getContext("2d");
           ctx.fillStyle = "yellow";
-          ctx.fillRect(10, 10, 150, 100);
+          ctx.fillRect(0, 0, 310, 157.8);
         }
       }
 
@@ -114,20 +114,20 @@
           const canvas = document.getElementById("color2");
           const ctx = canvas.getContext("2d");
           ctx.fillStyle = "red";
-          ctx.fillRect(10, 10, 150, 100);
+          ctx.fillRect(0, 0, 310, 157.8);
         }
 
         if (value == "blue") {
           const canvas = document.getElementById("color2");
           const ctx = canvas.getContext("2d");
           ctx.fillStyle = "blue";
-          ctx.fillRect(10, 10, 150, 100);
+          ctx.fillRect(0, 0, 310, 157.8);
         }
         if (value == "yellow") {
           const canvas = document.getElementById("color2");
           const ctx = canvas.getContext("2d");
           ctx.fillStyle = "yellow";
-          ctx.fillRect(10, 10, 150, 100);
+          ctx.fillRect(0, 0, 310, 157.8);
         }
       }
       function colorPicker3(value) {
@@ -135,136 +135,153 @@
           const canvas = document.getElementById("combinedColor");
           const ctx = canvas.getContext("2d");
           ctx.fillStyle = "purple";
-          ctx.fillRect(10, 10, 150, 100);
+          ctx.fillRect(0, 0, 310, 157.8);
         }
 
         if (value == "orange") {
           const canvas = document.getElementById("combinedColor");
           const ctx = canvas.getContext("2d");
           ctx.fillStyle = "orange";
-          ctx.fillRect(10, 10, 150, 100);
+          ctx.fillRect(0, 0, 310, 157.8);
         }
         if (value == "green") {
           const canvas = document.getElementById("combinedColor");
           const ctx = canvas.getContext("2d");
           ctx.fillStyle = "green";
-          ctx.fillRect(10, 10, 150, 100);
+          ctx.fillRect(0, 0, 310, 157.8);
         }
       }
     </script>
-
-    <h1>Color Calculator</h1>
-    <div>
-      <button
-        class="button button1"
-        id="red1"
-        type="submit"
-        value="red"
-        onclick="colorPicker1(value)"
-      >
-        Red
-      </button>
-      <button
-        class="button button2"
-        id="blue1"
-        type="submit"
-        value="blue"
-        onclick="colorPicker1(value)"
-      >
-        Blue
-      </button>
-      <button
-        class="button button3"
-        id="yellow1"
-        type="submit"
-        value="yellow"
-        onclick="colorPicker1(value)"
-      >
-        Yellow
-      </button>
-    </div>
-    <div>
-      <button
-        class="button button4"
-        id="red"
-        type="submit"
-        value="red"
-        onclick="colorPicker2(value)"
-      >
-        Red
-      </button>
-      <button
-        class="button button5"
-        id="blue"
-        type="submit"
-        value="blue"
-        onclick="colorPicker2(value)"
-      >
-        Blue
-      </button>
-      <button
-        class="button button6"
-        id="yellow"
-        type="submit"
-        value="yellow"
-        onclick="colorPicker2(value)"
-      >
-        Yellow
-      </button>
-      <canvas id="color1" width="150" height="100"></canvas>
-      <canvas id="color2" width="150" height="100"></canvas>
-    </div>
-    <div>
-      <canvas id="combinedColor" width="150" height="100"></canvas>
-    </div>
-    <div>
-      <button
-        class="button button7"
-        id="yellow"
-        type="submit"
-        value="combine"
-        onclick="combineColors()"
-      >
-        Combine
-      </button>
-      <button
-        class="button button8"
-        id="yellow"
-        type="submit"
-        value="combine"
-        onclick="deconColors()"
-      >
-        Deconstruct
-      </button>
-    </div>
-    <div>
+    </body>
+    </html>
+    <div class="app-header">
+      <div class="header-div">
+        <h1>Color Calculator</h1>
+      </div>
+      </div>
+      <div class="app-body">
+        <div class="button1-div">
+          <h4 class="color-1-header">
+            Color 1:
+          </h4>
+          <button
+          class="button button1"
+          id="red1"
+          type="submit"
+          value="red"
+          onclick="colorPicker1(value)"
+        >
+          Red
+        </button>
         <button
-        class="button button9"
-        id="purple"
-        type="submit"
-        value="purple"
-        onclick="colorPicker3(value)"
-      >
-        Purple
-      </button>
-      <button
-        class="button button10"
-        id="orange"
-        type="submit"
-        value="orange"
-        onclick="colorPicker3(value)"
-      >
-        Orange
-      </button>
-      <button
-        class="button button11"
-        id="green"
-        type="submit"
-        value="green"
-        onclick="colorPicker3(value)"
-      >
-        Green
-      </button>
-    </div>
-  </body>
-</html>
+          class="button button2"
+          id="blue1"
+          type="submit"
+          value="blue"
+          onclick="colorPicker1(value)"
+        >
+          Blue
+        </button>
+        <button
+          class="button button3"
+          id="yellow1"
+          type="submit"
+          value="yellow"
+          onclick="colorPicker1(value)"
+        >
+          Yellow
+        </button>
+      </div>
+      <div class="button2-div">
+        <h4 class="color-2-header">
+          Color 2:
+        <button
+          class="button button4"
+          id="red"
+          type="submit"
+          value="red"
+          onclick="colorPicker2(value)"
+        >
+          Red
+        </button>
+        <button
+          class="button button5"
+          id="blue"
+          type="submit"
+          value="blue"
+          onclick="colorPicker2(value)"
+        >
+          Blue
+        </button>
+        <button
+          class="button button6"
+          id="yellow"
+          type="submit"
+          value="yellow"
+          onclick="colorPicker2(value)"
+        >
+          Yellow
+        </button>
+      </div>
+        <div class="ingredient-canvas-div">
+          <canvas id="color1" class="canvas-1"></canvas>
+          <canvas id="color2" class="canvas-2"></canvas>
+      </div>
+      <br />
+      <div class="result-canvas-div">
+        <canvas id="combinedColor" class="combined-color-canvas"></canvas>
+      </div>
+      <div class="button3-div">
+        <button
+          class="button7"
+          id="yellow"
+          type="submit"
+          value="combine"
+          onclick="combineColors()"
+        >
+          Combine
+        </button>
+        <button
+          class="button8"
+          id="yellow"
+          type="submit"
+          value="combine"
+          onclick="deconColors()"
+        >
+          Deconstruct
+        </button>
+      </div>
+      <div class="button4-div">
+          <button
+          class="button button9"
+          id="purple"
+          type="submit"
+          value="purple"
+          onclick="colorPicker3(value)"
+        >
+          Purple
+        </button>
+        <button
+          class="button button10"
+          id="orange"
+          type="submit"
+          value="orange"
+          onclick="colorPicker3(value)"
+        >
+          Orange
+        </button>
+        <button
+          class="button button11"
+          id="green"
+          type="submit"
+          value="green"
+          onclick="colorPicker3(value)"
+        >
+          Green
+        </button>
+      </div>
+    </body>
+      </div>
+  </html>
+      </div> 
+    

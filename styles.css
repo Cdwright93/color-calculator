@@ -1,50 +1,314 @@
-.button {
-    border: none;
-    color: white;
-    padding: 25px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-flex;
-    font-size: 16px;
-    margin: 10px 10px;
-    cursor: pointer;
-  }
 .button1 {
     background-color: red;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .button2 {
     background-color: blue;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: rgb(0, 0, 255);
+    color: rgb(0, 0, 0);
 }
 .button3 {
     background-color: yellow;
-    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+} 
+.button3:hover {
+    background-color: rgb(255, 255, 0);
+    color: rgb(255, 255, 255);
 }
 .button4 {
     background-color: red;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.button4:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .button5 {
     background-color: blue;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.button5:hover {
+    background-color: rgb(0, 0, 255);
+    color: rgb(0, 0, 0);
 }
 .button6 {
     background-color: yellow;
     color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.button6:hover {
+    background-color: rgb(255, 255, 0);
+    color: rgb(255, 255, 255);
 }
 .button7 {
-    background-color: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 4px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.button7:hover {
+    background-color: rgb(0, 255, 60);
+    color: rgb(0, 0, 0);
 }
 .button8 {
-    background-color: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 4px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.button8:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .button9 {
     background-color: purple;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 .button10 {
     background-color: orange;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 .button11 {
     background-color: green;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.app-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(95, 91, 86);
+}
+
+.button1-div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 8px solid black;
+    margin-top: 20px;
+    height: 63px;
+    border-bottom-style: double;
+    border-top-style: double;
+    width: auto;
+}
+
+.button2-div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 8px solid black;
+    border-top-style: hidden;
+    border-bottom-style: double;
+    margin-top: -7px;
+    height: 70px;
+    width: auto;
+}
+.button3-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.result-canvas-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.button4-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.canvas-1 {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.canvas-2 {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+}
+.color-1-header {
+    display: flex;
+    padding-left: 10px;
+}
+.combined-color-canvas {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+}
+.color-2-header {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
 }
